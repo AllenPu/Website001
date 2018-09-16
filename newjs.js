@@ -19,3 +19,7 @@ function right() {
 function wrong() {
     alert("wrong!!!")
 }
+
+function display() {
+    document.getElementById("time").innerHTML=Date();
+}
